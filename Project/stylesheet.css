@@ -1,0 +1,383 @@
+/*==================BEGINING OF LAYOUT SECTION===================*/
+  body {
+  text-align:justify;
+  margin: 0px;
+  font-family: verdana, ariel, georgia;
+  font-size:20px;
+  max-width: 100%
+  
+  
+  }
+  
+  
+  .header{
+	  background-color: ;
+	  width: auto;
+	  height: auto;
+	  border-radius: 5px;
+	  padding: 10px;
+	 }
+.header img{
+	width: 500px;
+	margin-left: 200px;
+	vertical-align: center;
+}
+	 
+  #navbar ul{
+	  background-color:transparent;
+	  list-style-type: none;
+	  text-align: center;
+	  border-radius: 10px; 
+	  padding: 10px;
+	 }
+		 
+#navbar ul li{
+	  display:inline;
+	}
+
+  #navbar ul li a{
+	  background-color:transparent;
+	  margin:5px;
+	  text-decoration: none;
+	  font-family: ariel;
+	  border-radius: 10px; 
+	  padding: 5px;
+	  color: green;
+	   font-weight: normal;
+	    font-size: 14px;
+	 
+  }
+  
+   #navbar ul li a:hover{
+	  background-color:white;
+	  color: red;
+	  font-size: 16px;
+   }
+
+   .box1{
+   	float: center;
+   	width: auto;
+   	height: auto;
+   	margin-left: 120px;
+   	margin-right: 120px;
+   	margin-top: 50px;
+   	font-style: italic;
+   	line-height: 3;
+  }
+
+   .box2{
+   	width: 90%; 
+   	height: 70%; 
+   	margin-left: 150px; 
+   	margin-top: 20px;
+   	   }
+   	  .box2 video{
+   	  	border-radius: 20px;
+   	  }
+	  
+.main{
+	  background-color: transparent;
+	  margin: 5px;
+	  font-size: 14px;
+	  height: 200px;
+	  font-weight: bold;
+	 color: red;
+	  background-repeat: no-repeat;
+	  background-size: 1260px 300px;
+	    background-image:: url(images/air.jpg);
+	    line-height: 0.8;
+	
+ }
+ .main a:link{
+ 	  text-decoration: none;
+ 	  color: red;
+ 	  
+
+ }
+ .main ul li{
+	  display: outline;
+	  background-color: transparent;
+	  text-align: left;
+	  border-radius: 10px;
+	  padding: 5px;
+	  color: red;
+
+}
+  
+  .imagesideber{
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 50px;
+	  margin-bottom: 10px;
+	  border-radius: 5px;
+	  float: Right;
+	  width: 200px;
+	  height: 200;
+	  clear: right;
+	  opacity: 1.0;
+	  transition: opacity 0.5s ease-in-out;
+ }
+  .imagesideber:hover{
+  opacity:0.4;
+ }
+
+  .imagesideba{
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 0px;
+	  margin-bottom: 10px;
+	  border-radius: 5px;
+	  float: Right;
+	  width: 200px;
+	  height: 200;
+	  clear: right;
+	  opacity: 1.0;
+	  transition: opacity 1s ease-in-out;
+ }
+  .sideright{
+	  font-size: 14px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 120px;
+	  margin-bottom: 10px;
+	  border-radius: 5px;
+	  float: left;
+	  width: auto;
+	  border
+	  padding: 10px;
+	  clear: both;
+	  text-align: center;
+ }
+
+ .sideright img{
+ 	height: 150px;
+ 	width: 220px;
+ 	padding: 0px;
+ 	border-radius: 15px;
+ 	margin-right: 0px;
+
+ }
+  .sideright img:hover{
+  	opacity: 0.4;
+  }
+
+    .sideright1{
+	  background-color:silver;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	  margin-top: 250px;
+	  margin-bottom: 10px;
+	  border-radius: 5px;
+	  float: right;
+	  width: 220px;
+	  height: auto;
+	  padding: 10px;
+	  clear: both;
+	  text-align: center;
+ }
+ #footer{
+	  background-color: silver;
+	  margin:10px;
+	  height:250px;
+	  border-radius: 5px; 
+	  padding: 5px;
+	  font-size: 12px;
+	  text-align: center;
+ }
+ 
+ #footer ul li{
+	  display:inline;
+		 }
+  #footer ul li a{
+	  margin:10px;
+	  text-decoration: none;
+	  font-family: ariel;
+	  border-radius: 5px; 
+	  padding: .1em;
+	  color: blue;
+	  font-size: 16px;
+	 }
+
+.program{
+	font-size: 14px; 
+	margin: 50px;
+}
+	 .main1 p img{
+	  width: 130px; height: 150px;
+	  
+	  border: 3px solid #45ae66;
+	  border-color: black;
+	  border-radius: 10px;
+	  margin-right: 10px;
+	  background-color: black;
+	  float: left;
+	 } 
+        
+/*==================END OF LAYOUT SECTION===================*/
+
+
+/*==================BEGINING OF HEADER SECTION===================*/
+  p{
+  	line-height: 2;
+  }
+
+  h3{
+	 font-size:120%;
+	 color: darkblue;
+	 
+ }
+ 
+  h2{
+	 font-size:100%;
+	 color: purple;
+	 margin-top: 100px;
+	 
+ }
+ h3{
+	font-size:100%;
+	  color: blue;
+	  font-family: georgia, ariel-black;
+	  font-weight: solid;
+	   
+ }
+ p div{
+ 	text-decoration-line: 10px;
+ 	text-decoration: 10px;
+ 	text-align: wrap;
+ 	margin-right: 10px;
+ }
+#theform{
+	background-color: transparent;
+	display: table;
+	padding: 10px;
+	border: 2px solid gray;
+	color: ;
+	text-align: 
+ /*==================BEGINING OF HEADER SECTION===================*/}
+}
+.row{
+	display: table-row;
+}
+.row label{
+	padding-bottom: 2px;
+	padding-top: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	display: table-cell;
+	margin-bottom: 3px;
+}
+.row input{
+	padding: 2px;
+	display: table-cell;
+}
+form{
+	margin-left: 400px;
+}
+
+
+      .mySlides {
+        display: none
+      }
+      img {
+        vertical-align: middle;
+      }
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #ffffff;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #999999;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      .active,
+      .dot:hover {
+        background-color: #111111;
+      }
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
+
+.program{
+	color: black;
+}

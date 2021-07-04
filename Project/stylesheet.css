@@ -1,12 +1,11 @@
 /*==================BEGINING OF LAYOUT SECTION===================*/
   body {
   text-align:justify;
-  margin: 0px;
+  margin: 20px;
   font-family: verdana, ariel, georgia;
   font-size:20px;
-  max-width: 100%
-  
-  
+  max-width: 100%;
+  background-color: cornsilk;
   }
   
   
@@ -134,6 +133,22 @@
 	  opacity: 1.0;
 	  transition: opacity 1s ease-in-out;
  }
+
+ .udom p img{
+	  width: 230px; 
+	  height: 250px;
+	  border: 3px solid black;
+	  border-radius: 10px;
+	  margin: 3px 10px 5px 10px;
+	  float: left;
+	  clear: both;
+	  text-align: left;
+ }
+  .udom
+   img:hover{
+  	opacity: 0.4;
+  }
+
   .sideright{
 	  font-size: 14px;
 	  margin-left: 10px;
@@ -184,6 +199,7 @@
 	  padding: 5px;
 	  font-size: 12px;
 	  text-align: center;
+	  position: static;
  }
  
  #footer ul li{
@@ -292,7 +308,7 @@ form{
       .next {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 30%;
         width: auto;
         padding: 16px;
         margin-top: -22px;
